@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp UI challenge</title>
+    <link rel="stylesheet" href="./assests/css/output.css">
+</head>
+<body class="bg-green-300 p-10">
+    <h1 class="font-black text-center mb-5">Whatsapp UI challenge (Screen-2)</h1>
+    <section class="max-w-sm mx-auto">
+        <div class="bg-gray-700 text-gray-400 px-3 py-5 flex items-center justify-between space-x-2">
+            <h4 class="font-semibold text-lg">WhatsApp</h4>
+            <div class="flex ">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 24 24" class="pe-1 hover:cursor-pointer hover:text-gray-300"><path fill="currentColor" d="M12 17.5q1.875 0 3.188-1.313T16.5 13q0-1.875-1.313-3.188T12 8.5q-1.875 0-3.188 1.313T7.5 13q0 1.875 1.313 3.188T12 17.5Zm0-2q-1.05 0-1.775-.725T9.5 13q0-1.05.725-1.775T12 10.5q1.05 0 1.775.725T14.5 13q0 1.05-.725 1.775T12 15.5ZM4 21q-.825 0-1.413-.588T2 19V7q0-.825.588-1.413T4 5h3.15L9 3h6l1.85 2H20q.825 0 1.413.588T22 7v12q0 .825-.588 1.413T20 21H4Zm0-2h16V7h-4.05l-1.825-2h-4.25L8.05 7H4v12Zm8-6Z"/></svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 24 24" class="hover:cursor-pointer  hover:text-gray-300"><path fill="currentColor" d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2Z"/></svg>
+            </div>
+        </div>
+        <ul class="bg-gray-700 text-gray-400 px-3  py-2 flex items-center justify-between">
+            <li><div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z"/>
+            </svg>
+        </div>
+        </li>
+        <li class="flex items-center flex-1 justify-between">    
+            <div class="ml-3 font-medium text-sm flex items-center ms-3">
+                <a href="index.html"><span class="hover:cursor-pointer"> Chats</span></a> 
+                <span class=" bg-gray-400 text-gray-700 text-xs p-0.5 rounded-full w-5 h-5 flex items-center justify-center ml-2">10</span>
+                
+            </div>
+
+            <div class="ml-3 font-medium text-sm flex items-center relative justify-center text-emerald-400 ">
+                <span>Updates</span>
+                <div class="absolute top-8 bg-emerald-700 w-24 h-1"></div>
+            </div>
+
+            <div class="ml-3 font-medium text-sm flex items-center pe-6"><span> Calls
+            </span></div>
+        </li>
+        
+    </ul>
+    
+    <!-- updates tab section
+    <section class=" bg-gray-500 text-white">
+        <div class="px-3 py-4 ">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M15.992 3.013C17.326 2.236 19 3.197 19 4.741V8a3 3 0 1 1 0 6v3c0 1.648-1.881 2.589-3.2 1.6l-2.06-1.546A8.658 8.658 0 0 0 10 15.446v2.844a2.71 2.71 0 0 1-5.316.744l-1.57-5.496a4.7 4.7 0 0 1 3.326-7.73l3.018-.168a9.344 9.344 0 0 0 4.19-1.259l2.344-1.368ZM5.634 15.078l.973 3.407A.71.71 0 0 0 8 18.29v-3.01l-1.56-.087a4.723 4.723 0 0 1-.806-.115ZM20 11a1 1 0 0 0-1-1v2a1 1 0 0 0 1-1Z"/></g></svg>
+            </div>
+            <p>The updates tab is now the home for status and channels. <span class="">Find channels</span></p>
+        </div>
+
+    </section> -->
+
+    <!-- Status section -->
+    <section class="bg-gray-800">
+        <div class="px-3 py-3 flex justify-between">
+            <span class="text-white font-medium text-lg ml-2">status</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="32" viewBox="0 0 24 24" class="text-gray-400 hover:cursor-pointer hover:text-gray-300"><path fill="currentColor" d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2Z"/></svg>
+        </div>
+        <div class="px-3 py-4 flex items-center hover:cursor-pointer hover:bg-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 24 24" class="text-gray-400"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm0 14c-2.03 0-4.43-.82-6.14-2.88a9.947 9.947 0 0 1 12.28 0C16.43 19.18 14.03 20 12 20z"/></svg>
+            <!-- <img src="" alt="Your Status"> -->
+            <div class="px-2">
+                <span class="text-white font-medium text-sm">My status</span>
+                <p class="text-gray-400 text-sm">Tap to add status update</p>
+            </div>
+        </div>
+
+        <div class="px-3 py-4 flex items-center hover:cursor-pointer hover:bg-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 24 24" class="text-gray-400 border-spacing-1 border-white "><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm0 14c-2.03 0-4.43-.82-6.14-2.88a9.947 9.947 0 0 1 12.28 0C16.43 19.18 14.03 20 12 20z"/></svg>
+            <!-- <img src="" alt="Your Status"> -->
+            <div class="px-2">
+                <span class="text-white font-medium text-sm">Mathumitha</span>
+                <p class="text-gray-400 text-sm">6:05 am</p>
+            </div>
+        </div>
+
+    </section>
+    
+    <!-- chat screen
+    <div class="bg-white">
+    <div class="flex items-center px-3 py-4 hover:bg-gray-300 hover:cursor-pointer">
+        <div>
+            <img src="https://ui-avatars.com/api/?name=Anusha+Lakshmi&?background=random" alt="Anusha Lakshmi" class="rounded-full">
+        </div>
+        <div class="px-2 flex-1">
+            <h4 class="font-semibold">Anusha</h4>
+            <p class="text-gray-600 text-sm">Hey d! How is life?</p>
+        </div>
+        <div class="flex flex-col items-center space-y-1">
+            <span class="text-green-600 font-semibold text-sm">08:59 PM</span>
+            <span class="w-4 h-4 bg-green-600 flex items-center text-white p-1 rounded-full text-xs font-semibold">1</span>
+        </div>
+    </div>
+    <!-- second chat -->
+    <!-- <div class= "flex items-center  px-3 py-4 hover:bg-gray-300 hover:cursor-pointer">
+        <div>
+            <img src="https://ui-avatars.com/api/?name=Abinaya+SreeS?background=random" alt="Abinaya Sree" class="rounded-full">
+        </div>
+        <div class="px-2 flex-1">
+            <h4 class="font-semibold">Abinaya Sree</h4>
+            <p class="text-gray-600 text-sm">ena panitu iruka?</p>
+        </div>
+        <div class="flex flex-col items-center space-y-1">
+            <span class="text-green-600 font-semibold text-sm">08:30 PM</span>
+            <span class="w-4 h-4 bg-green-600 flex items-center text-white p-1 rounded-full text-xs font-semibold">4</span>
+        </div>
+    </div> -->
+    <!-- third person chat -->
+    <!-- <div class="flex items-center  px-3 py-4 hover:bg-gray-300 hover:cursor-pointer">
+        <div>
+            <img src="https://ui-avatars.com/api/?name=Krishna+Mathumitha?background=random" alt="Anusha Lakshmi" class="rounded-full">
+        </div>
+        <div class="px-2 flex-1">
+            <h4 class="font-semibold">Krishna Mathumitha</h4>
+            <p class="text-gray-600 text-sm">oru phone illa msg illa...</p>
+        </div>
+        <div class="flex flex-col items-center space-y-1">
+            <span class="text-green-600 font-semibold text-sm">08:00 PM</span>
+            <span class="w-4 h-4 bg-green-600 flex items-center text-white p-1 rounded-full text-xs font-semibold">7</span>
+        </div>
+    </div> -->
+
+    <!-- fourth person -->
+    <!-- <div class="flex items-center  px-3 py-4 hover:bg-gray-300 hover:cursor-pointer">
+        <div>
+            <img src="https://ui-avatars.com/api/?name=Saraswathi=random" alt="Saraswathi" class="rounded-full">
+        </div>
+        <div class="px-2 flex-1">
+            <h4 class="font-semibold">Saraswathi</h4>
+            <p class="text-gray-600 text-sm">Padam superb ah iruku neeyum paru...</p>
+        </div>
+        <div class="flex flex-col items-center space-y-1">
+            <span class="text-green-600 font-semibold text-sm">5:00 PM</span>
+            <span class="w-4 h-4 bg-green-600 flex items-center text-white p-1 rounded-full text-xs font-semibold">3</span>
+        </div>
+    </div>
+</div> --> 
+    </section>
+</body>
+</html>
