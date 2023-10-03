@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whatsapp UI challenge</title>
+    <!-- tailwind css online cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calls | whatsapp</title>
     <link rel="stylesheet" href="./assests/css/output.css">
 </head>
 
@@ -13,31 +15,31 @@
     <section class="max-w-sm mx-auto">
         <section>
             <!-- Whatsapp Header section starts -->
-            <div class="bg-gray-800 text-gray-400 px-3 py-5 flex items-center justify-between space-x-2">
+            <div class="bg-gray-900 text-white px-3 py-5 flex items-center justify-between space-x-2">
                 <h4 class="font-semibold text-lg">WhatsApp</h4>
-                <div class="flex ">
+                <div class="flex gap-x-4">
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="32" viewBox="0 0 24 24"
-                        class="m-2 hover:cursor-pointer hover:text-gray-300">
+                        class="hover:cursor-pointer hover:text-emerald-600">
                         <path fill="currentColor"
                             d="M12 17.5q1.875 0 3.188-1.313T16.5 13q0-1.875-1.313-3.188T12 8.5q-1.875 0-3.188 1.313T7.5 13q0 1.875 1.313 3.188T12 17.5Zm0-2q-1.05 0-1.775-.725T9.5 13q0-1.05.725-1.775T12 10.5q1.05 0 1.775.725T14.5 13q0 1.05-.725 1.775T12 15.5ZM4 21q-.825 0-1.413-.588T2 19V7q0-.825.588-1.413T4 5h3.15L9 3h6l1.85 2H20q.825 0 1.413.588T22 7v12q0 .825-.588 1.413T20 21H4Zm0-2h16V7h-4.05l-1.825-2h-4.25L8.05 7H4v12Zm8-6Z" />
                     </svg>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="32" viewBox="0 0 24 24"
-                        class="m-2 hover:cursor-pointer hover:text-gray-300">
+                        class=" hover:cursor-pointer hover:text-emerald-600">
                         <g fill="none" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" d="m20 20l-6-6" />
                             <path d="M15 9.5a5.5 5.5 0 1 1-11 0a5.5 5.5 0 0 1 11 0Z" />
                         </g>
                     </svg>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="32" viewBox="0 0 24 24"
-                        class="m-2 hover:cursor-pointer  hover:text-gray-300">
+                        class="hover:cursor-pointer  hover:text-emerald-600">
                         <path fill="currentColor"
                             d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2Z" />
                     </svg>
                 </div>
             </div>
             <!-- Whatsapp Header section list starts -->
-            <ul class="bg-gray-800 text-gray-400 px-3  py-2 flex items-center justify-between">
+            <ul class="bg-gray-900 text-gray-500 px-3  py-2 flex items-center justify-between">
                 <li>
                     <a href="community.html">
                         <div>
@@ -79,7 +81,7 @@
 
 
         <!-- calls section -->
-        <section class="bg-gray-900">
+        <section class="bg-gray-950">
             <section>
 
                 <!-- calls section content starting-->
@@ -101,32 +103,34 @@
             </section>
             <!-- contact section content start -->
             <section>
-                <!-- first person call -->
                 <span class="text-gray-300 text-sm px-3 ml-2">Recent</span>
-                <div class="px-3 py-4 flex justify-between hover:cursor-pointer hover:bg-gray-700 ">
-                    <div class="flex">
+                 <!-- first person call -->
+                <div class="px-3 py-4 flex items-center justify-center hover:cursor-pointer hover:bg-gray-700 ">
+                    <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 24 24"
                             class="text-gray-400">
                             <path fill="currentColor"
                                 d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm0 14c-2.03 0-4.43-.82-6.14-2.88a9.947 9.947 0 0 1 12.28 0C16.43 19.18 14.03 20 12 20z" />
                         </svg>
-                        <div class="px-2">
-                            <span class="text-white font-medium text-sm">Mathumitha (2)</span>
-                            <div class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 24 24"
-                                    class="text-green-400 pe-1">
-                                    <path fill="currentColor" d="M15 17H8.41L20 5.41L18.59 4L7 15.59V9H5v10h10z" />
-                                </svg>
-                                <p class="text-gray-400 text-sm"> 21 september,2:30 pm</p>
-                            </div>
-                        </div>
-                        <!-- icon appears here -->
-                        <div class=" text-emerald-400">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 24 24">
-                                <path fill="currentColor"
-                                    d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                    </div>
+
+                    <div class="px-2 items-center flex-1">
+                        <span class="text-white font-medium text-sm">Mathumitha (2)</span>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="32" viewBox="0 0 24 24"
+                                class="text-green-400 pe-1">
+                                <path fill="currentColor" d="M15 17H8.41L20 5.41L18.59 4L7 15.59V9H5v10h10z" />
                             </svg>
+                            <p class="text-gray-400 text-sm"> 21 september,2:30 pm</p>
+
                         </div>
+                    </div>
+                    
+                    <div class="flex text-emerald-400 items-center justify-center space-x-9">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                        </svg>
                     </div>
 
                 </div>
