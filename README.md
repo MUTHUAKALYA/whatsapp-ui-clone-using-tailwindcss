@@ -3,7 +3,7 @@
 Cyberdude Networks Pvt. Ltd Internship Project # 3 - **WhatsApp UI Challenge**.
 
 ## Table of Contents
-- [WhatsApp UI Challenge By Muthu Akalya 🚀](#whatsapp-ui-challenge-by-shajid-)
+- [WhatsApp UI Challenge By Muthu Akalya 🚀](#whatsapp-ui-challenge-by-Muthu-Akalya-)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Demo](#demo)
@@ -27,7 +27,20 @@ I have added the tools I used while I build this UI.
 ✨**Live Link is Here**:https://muthuakalya.github.io/whatsapp-ui-clone-using-tailwindcss/
 <br>
 <br>
-![Walthrough demo](./assests/Images/Whatsapp%20UI%20challenge.webm)
+![Walthrough demo](./assests/Images/chats-page.png)
+
+![Walthrough demo](./assests/Images/community.png)
+
+![Walthrough demo](./assests/Images/viewall%20-community-page.png)
+
+![Walthrough demo](./assests/Images/updates%20page.png)
+
+![Walthrough demo](./assests/Images/updates%202%20page.png)
+
+![Walthrough demo](./assests/Images/settings-page.png)
+
+![Walthrough demo](./assests/Images/settings-2-page.png)
+
 
 ## Internship
 
